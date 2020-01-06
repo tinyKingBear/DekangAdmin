@@ -45,6 +45,12 @@ export default {
       this.chart = echarts.init(this.$el, 'macarons')
 
       this.chart.setOption({
+        grid: {
+          top: '3%',
+          left: '2%',
+          right: '2%',
+          containLabel: true
+        },
         title: {
           left: 'left',
           text: '检查占比'

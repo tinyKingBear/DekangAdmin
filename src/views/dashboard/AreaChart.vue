@@ -73,6 +73,12 @@ export default {
     },
     setOptions({ expectedData, actualData } = {}) {
       this.chart.setOption({
+        grid: {
+          top: 35,
+          left: '2%',
+          right: '2%',
+          containLabel: true
+        },
         tooltip: {
           trigger: 'axis',
           position: function(pt) {
