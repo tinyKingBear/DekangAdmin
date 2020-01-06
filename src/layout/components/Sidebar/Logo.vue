@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      title: 'ELADMIN-后台管理',
+      title: '德康医疗管理系统',
       logo: Logo
     }
   }
